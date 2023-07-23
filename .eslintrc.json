@@ -21,13 +21,25 @@
   "rules": {
     "prefer-const": [
       "off",
-      "allways"
+      "always"
     ],
     "react/react-in-jsx-scope": "off",
     "no-duplicate-imports": "warn",
     "no-self-compare": "warn",
     "no-eval": "error",
-    "quotes": ["error", "single"],
-    "jsx-quotes": ["error", "prefer-double"]
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "jsx-quotes": [
+      "error",
+      "prefer-double"
+    ],
+    "no-unused-vars": [
+      "warn"
+    ],
+    "@typescript-eslint/no-unused-vars": [
+      "warn"
+    ]
   }
 }

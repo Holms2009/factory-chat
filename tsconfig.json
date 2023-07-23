@@ -18,7 +18,7 @@
     "baseUrl": "src",
     "paths": {
       "@app/*": ["app/*"],
-      "@styles/*": ["app/styles/*"],
+      "@styles/*": ["shared/styles/*"],
       "@assets/*": ["shared/assets/*"],
       "@entities": ["entities"],
       "@features": ["features"],
