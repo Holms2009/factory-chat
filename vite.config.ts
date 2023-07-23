@@ -34,8 +34,8 @@ export default defineConfig({
     },
   },
   server: {
-    port: 3001,
-    open: 'http://localhost:3001',
+    port: 3000,
+    open: 'http://localhost:3000',
   },
   plugins: [
     react({
