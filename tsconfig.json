@@ -18,13 +18,11 @@
     "baseUrl": "src",
     "paths": {
       "@app/*": ["app/*"],
-      "@store/*": ["app/store/*"],
-      "@store": ["app/store"],
       "@styles/*": ["app/styles/*"],
-      "@assets/*": ["assets/*"],
-      "@entities": ["entity"],
+      "@assets/*": ["shared/assets/*"],
+      "@entities": ["entities"],
       "@features": ["features"],
-      "@pages/*": ["pages/*"],
+      "@pages": ["pages"],
       "@ui": ["shared/ui"],
       "@shared/*": ["shared/*"],
       "@widgets": ["widgets"]
