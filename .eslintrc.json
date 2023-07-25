@@ -6,7 +6,8 @@
   "extends": [
     "eslint:recommended",
     "plugin:react/recommended",
-    "plugin:@typescript-eslint/recommended"
+    "plugin:@typescript-eslint/recommended",
+    "plugin:jsx-a11y/recommended"
   ],
   "overrides": [],
   "parser": "@typescript-eslint/parser",
@@ -16,7 +17,9 @@
   },
   "plugins": [
     "react",
-    "@typescript-eslint"
+    "@typescript-eslint",
+    "react-hooks",
+    "jsx-a11y"
   ],
   "rules": {
     "prefer-const": [
@@ -28,7 +31,7 @@
     "no-self-compare": "warn",
     "no-eval": "error",
     "quotes": [
-      "error",
+      "warn",
       "single"
     ],
     "jsx-quotes": [
@@ -40,6 +43,9 @@
     ],
     "@typescript-eslint/no-unused-vars": [
       "warn"
-    ]
+    ],
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "jsx-a11y/alt-text": "warn"
   }
 }

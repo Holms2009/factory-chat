@@ -1,4 +1,4 @@
-# Project template: React + TypeScript + Vite
+# Project template: React + TypeScript + Vite v0.1.0
 
 ## Description:
 
@@ -21,6 +21,8 @@ For nice and readable bolierplates i added some aliases for most important direc
 - sass;
 - normalize.css;
 - Vitest;
+- jsdom;
+- react-testing-library;
 - YARN;
 
 ### Scripts:
