@@ -20,6 +20,7 @@ For nice and readable bolierplates i added some aliases for most important direc
 - lint-staged;
 - sass;
 - normalize.css;
+- Vitest;
 - YARN;
 
 ### Scripts:
