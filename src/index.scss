@@ -7,4 +7,25 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+  color-scheme: light dark;
+
+  --mainBg: #fafeff;
+  --secondaryBg: #ecf5f7;
+  --mainText: #1b1b1b;
+  --mainShadow: #d6d6d6;
+}
+
+html {
+  color: var(--mainText);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+[dark] {
+  --mainBg: #323333;
+  --secondaryBg: #2a2b2b;
+  --mainText: #fafeff;
+  --mainShadow: #1b1b1b;
 }

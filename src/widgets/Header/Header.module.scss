@@ -1,0 +1,13 @@
+@import '@styles';
+
+.main {
+  padding: 10px 30px;
+  width   : 100%;
+  position: fixed;
+  top     : 0;
+  left    : 0;
+  background-color: var(--secondaryBg);
+  box-shadow: 0 3px 10px 0 var(--mainShadow);
+  display: flex;
+  justify-content: space-between;
+}
